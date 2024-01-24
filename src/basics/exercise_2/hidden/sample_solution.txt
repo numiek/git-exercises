@@ -1,0 +1,2 @@
+def copy_git():
+    return "git clone https://example.com ./subdir"

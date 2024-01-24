@@ -1,0 +1,2 @@
+def get_short_state_command():
+    return "git status -s"

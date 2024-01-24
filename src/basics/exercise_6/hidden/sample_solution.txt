@@ -1,0 +1,11 @@
+def create_glob_patterns():
+    return [
+        "./*.txt",  # Match all .txt files in the current directory.
+        "./**/*.jpg",  # Match all .jpg files in any subdirectory.
+        "./?.*",  # Match any files with a single character name (any extension) in the current directory.
+        "./docs/**/*.*",  # Match all files in any level of subdirectories under 'docs'.
+        "./data_*.csv",  # Match all files that start with 'data_' and end with '.csv' in the current directory.
+        "./*/*.py",  # Match all Python files (.py) in the immediate subdirectories.
+        "./**/2023_*/*.*",  # Match all files in directories that start with '2023_' at any directory level.
+        "./**/*.????",  # Match all files with extensions that have exactly four characters.
+    ]

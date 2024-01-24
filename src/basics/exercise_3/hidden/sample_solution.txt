@@ -1,0 +1,2 @@
+def get_stage_command():
+    return "git add ./dir/file.txt"

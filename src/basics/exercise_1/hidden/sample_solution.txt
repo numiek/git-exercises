@@ -1,0 +1,2 @@
+def initialize_git():
+    return "git init ./subdir"
