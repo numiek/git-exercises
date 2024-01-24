@@ -1,0 +1,2 @@
+def answer() -> list[str]:
+    return ["git add .", 'git commit --amend -m "small adjustment"']
