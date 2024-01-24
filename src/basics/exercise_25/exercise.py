@@ -5,4 +5,4 @@ Problem Description:
 
 
 def answer() -> str:
-    return "git log -2"
+    return ""
