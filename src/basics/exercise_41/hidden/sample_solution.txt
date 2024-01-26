@@ -1,0 +1,2 @@
+def answer() -> str:
+    return r'git log -P --committer="^Max F[^\W_\d]*$" --grep="\[IMPORTANT-\d\]"'

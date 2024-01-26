@@ -1,0 +1,2 @@
+def answer() -> str:
+    return r'git log --no-merges --before="2000-01-01 15:00:00" --name-only -- ./files/'

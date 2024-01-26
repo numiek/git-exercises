@@ -1,2 +1,14 @@
-def answer() -> list[str]:
-    return ["git add .", 'git commit --amend -m "small adjustment"']
+def answer() -> dict[str, str]:
+    return {
+        "commit hash (full)": "%H",
+        "commit hash (short)": "%h",
+        "author name": "%an",
+        "author email": "%ae",
+        "author date (absolute)": "%ad",
+        "author date (relative)": "%ar",
+        "committer name": "%cn",
+        "committer email": "%ce",
+        "committer date (absolute)": "%cd",
+        "committer date (relative)": "%cr",
+        "subject": "%s",
+    }

@@ -1,0 +1,2 @@
+def answer() -> str:
+    return r'git log --before="2 weeks ago" -P --author="^N[^\W_\d]*\s+K[^\W_\d]*$" --author="^Max Huf[^\W_\d]*$"'

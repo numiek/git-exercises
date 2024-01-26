@@ -1,2 +1,2 @@
-def answer() -> list[str]:
-    return ["git add .", 'git commit --amend -m "small adjustment"']
+def answer() -> str:
+    return 'git log --pretty="format:%h -- %an --> message: %s"'

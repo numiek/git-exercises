@@ -1,0 +1,2 @@
+def answer() -> str:
+    return 'git log --after="1 day 2 weeks 2 hours 3 minutes ago"'
