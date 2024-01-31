@@ -1,0 +1,2 @@
+def answer() -> str:
+    return "git remote add example http://example.com"

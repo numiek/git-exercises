@@ -1,0 +1,5 @@
+def answer() -> tuple[str, str]:
+    return (
+        "git fetch example",
+        "example/br",
+    )

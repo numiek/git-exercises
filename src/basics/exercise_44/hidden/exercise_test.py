@@ -3,4 +3,4 @@ from src.basics.exercise_44.exercise import answer
 
 
 def test_answer():
-    assert normalize_str(answer()) == normalize_str("git rm file1.txt --cached")
+    assert normalize_str(answer()) == normalize_str("git rm --cached file1.txt")

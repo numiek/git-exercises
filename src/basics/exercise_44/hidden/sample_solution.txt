@@ -1,2 +1,2 @@
 def answer() -> str:
-    return "git commit --amend"
+    return "git rm --cached file1.txt"

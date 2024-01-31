@@ -3,4 +3,4 @@ from src.basics.exercise_45.exercise import answer
 
 
 def test_answer():
-    assert normalize_str(answer()) == normalize_str("git restore file1.txt --staged")
+    assert normalize_str(answer()) == normalize_str("git restore --staged file1.txt")
