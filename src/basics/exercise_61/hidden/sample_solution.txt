@@ -1,0 +1,2 @@
+def answer() -> str:
+    return 'git tag -a "v1.0.0" "166ae0c4d3f420721acbb115cc33848dfcc2121a"'

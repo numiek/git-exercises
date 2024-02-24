@@ -6,4 +6,4 @@ Problem Description:
 
 
 def initialize_git():
-    pass
+    return ""

@@ -7,9 +7,9 @@ Problem Description:
         4. The default commit sections along with the names modified files are of interest. 
         5. The format '<command> <merge commits part> <time part> <commit format part> <relevant files part where applicable>' must be respected.
 
-    Provide the necessary Git command in a raw Python string.
+    Provide the necessary Git command.
 """
 
 
 def answer() -> str:
-    return r""
+    return ""

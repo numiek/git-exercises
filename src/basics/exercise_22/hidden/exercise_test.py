@@ -1,14 +1,19 @@
 from src.basics.exercise_22.exercise import answer
+import functools
+from src.hidden.create_command_line_argument_combinations import (
+    create_command_line_argument_combinations,
+)
 from src.hidden.normalize_str import normalize_str
 
 
 def test_answer():
+    arguments = ("file1.txt",)
+    command_template = "git rm --cached {}"
+    str_normalizer = functools.partial(normalize_str, is_case_sensitive=True)
     command, flag = answer()
 
-    assert (
-        normalize_str(command),
-        flag,
-    ) == (
-        normalize_str("git rm --cached file1.txt"),
-        True,
-    )
+    assert str_normalizer(command) in {
+        str_normalizer(command_template.format(*combination))
+        for combination in create_command_line_argument_combinations(arguments)
+    }
+    assert flag

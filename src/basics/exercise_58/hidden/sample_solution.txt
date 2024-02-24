@@ -1,2 +1,2 @@
 def answer() -> str:
-    return "git tag"
+    return 'git tag -l "v.1.???.5*"'

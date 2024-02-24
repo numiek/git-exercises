@@ -1,0 +1,2 @@
+def answer() -> str:
+    return 'git show "v1.0.0"'
