@@ -6,4 +6,4 @@ Problem Description:
 
 
 def copy_git():
-    pass
+    return ""

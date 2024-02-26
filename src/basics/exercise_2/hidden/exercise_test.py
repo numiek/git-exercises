@@ -8,8 +8,8 @@ from src.hidden.normalize_str import normalize_str
 
 def test_answer():
     arguments = (
-        "./subdir",
         "https://example.com",
+        "./subdir",
     )
     command_template = "git clone {} {}"
     str_normalizer = functools.partial(normalize_str, is_case_sensitive=True)
