@@ -6,4 +6,4 @@ Problem Description:
 
 
 def get_short_state_command():
-    pass
+    return ""
