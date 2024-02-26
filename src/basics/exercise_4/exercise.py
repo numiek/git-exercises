@@ -6,4 +6,4 @@ Problem Description:
 
 
 def get_state_command():
-    pass
+    return ""
