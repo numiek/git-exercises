@@ -6,4 +6,4 @@ Problem Description:
 
 
 def get_stage_command():
-    pass
+    return ""
