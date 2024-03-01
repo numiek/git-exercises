@@ -12,4 +12,4 @@ Problem Description:
 
 
 def answer():
-    pass
+    return ""
