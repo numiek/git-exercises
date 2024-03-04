@@ -7,7 +7,7 @@ from src.hidden.normalize_str import normalize_str
 
 
 def test_answer():
-    arguments = ("operation.py",)
+    arguments = ("./operation.py", "operation.py")
     command_template = "git add {}"
     str_normalizer = functools.partial(normalize_str, is_case_sensitive=True)
 
