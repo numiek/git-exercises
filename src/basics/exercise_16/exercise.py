@@ -1,6 +1,6 @@
 """
 Problem Description:
-    What happens when you run the command git commit with no additional text?
+    What happens when you run the command `git commit` with no additional text?
 
     Options:
     A. It lists all the files that are going to be committed.
