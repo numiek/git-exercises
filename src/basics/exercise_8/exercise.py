@@ -1,5 +1,5 @@
 """
 Problem Description:
-    Manually modify the .gitignore file to ignore a specific file 'secrets.txt', but not 'config.txt'.
+    Manually modify the .gitignore file to ignore a specific file starting with 'secrets_', but not 'secrets_test.txt'.
     Both files are inside this directory.
 """
