@@ -8,4 +8,4 @@ Problem Description:
 
 
 def answer() -> list[str]:
-    pass
+    return []
