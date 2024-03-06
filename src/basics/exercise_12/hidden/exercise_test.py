@@ -25,7 +25,11 @@ def test_stage_txt_files(tmp_path):
     repo_path = setup_repo_with_files(tmp_path)
 
     command = answer()
-    subprocess.run(command.split(), cwd=repo_path)  # Execute the returned Git command
+    subprocess.run(
+        command,
+        cwd=repo_path,
+        shell=True,
+    )  # Execute the returned Git command
 
     # Check if the correct files are staged
     staged_files = (

@@ -1,2 +1,9 @@
 def answer():
     return "git add ./files/*.txt"
+
+
+###########
+
+
+def answer():
+    return 'git add ":(glob)./files/*.txt"'
