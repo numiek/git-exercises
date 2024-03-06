@@ -10,8 +10,10 @@ def test_answer():
     arguments = ("file1.txt",)
     command_template = "git rm {}"
     str_normalizer = functools.partial(normalize_str, is_case_sensitive=True)
+    a, b = answer()
 
-    assert str_normalizer(answer()) in {
+    assert str_normalizer(a) in {
         str_normalizer(command_template.format(*combination))
         for combination in create_command_line_argument_combinations(arguments)
     }
+    assert b is True
