@@ -1,5 +1,5 @@
 def answer() -> tuple[str, bool]:
     return (
-        "git rm -f file1.txt",
+        "git rm file1.txt",
         True,
     )

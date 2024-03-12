@@ -1,4 +1,4 @@
-from src.basics.exercise_19.exercise import answer
+from src.basics.exercise_64.exercise import answer
 import functools
 from src.hidden.create_command_line_argument_combinations import (
     create_command_line_argument_combinations,
@@ -8,7 +8,7 @@ from src.hidden.normalize_str import normalize_str
 
 def test_answer():
     arguments = ("file1.txt",)
-    command_template = "git rm -f {}"
+    command_template = "git rm {}"
     str_normalizer = functools.partial(normalize_str, is_case_sensitive=True)
     a, b = answer()
 
