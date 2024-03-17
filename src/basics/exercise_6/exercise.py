@@ -11,7 +11,7 @@ Problem Description:
     5. Match all files that start with 'data_' and end with '.csv' in the current directory.
     6. Match all Python files (.py) in the immediate subdirectories.
     7. Match all files in directories that start with '2023_' at any directory level.
-    8. Match all files with extensions that have exactly four characters.
+    8. Match all files with extensions that have exactly four characters in all subdirectories.
     9. Match all files and directories in directories that start with '2023_' at any directory level.
 """
 
@@ -25,6 +25,6 @@ def create_glob_patterns():
         "",  # 5. Match all files that start with 'data_' and end with '.csv' in the current directory.
         "",  # 6. Match all Python files (.py) in the immediate subdirectories.
         "",  # 7. Match all files in directories that start with '2023_' at any directory level.
-        "",  # 8. Match all files with extensions that have exactly four characters.
+        "",  # 8. Match all files with extensions that have exactly four characters in all subdirectories.
         "",  # 9. Match all files and directories in directories that start with '2023_' at any directory level.
     ]
